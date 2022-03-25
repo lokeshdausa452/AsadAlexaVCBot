@@ -88,7 +88,7 @@ async def play(client, m: Message):
                stream_type=StreamType().pulse_stream,
             )
             add_to_queue(chat_id, songname, dl, link, "Audio", 0)
-            await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}]({url})({link}) \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
+            await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}] \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
           except Exception as hmme:
             await huehue.edit(hmme)
       else:
@@ -120,7 +120,7 @@ async def play(client, m: Message):
                            stream_type=StreamType().pulse_stream,
                         )
                         add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
-                        await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}]({url})({link}) \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
+                        await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}] \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
                      except Exception as ep:
                         await huehue.edit(f"`{ep}`")
             
@@ -153,7 +153,7 @@ async def play(client, m: Message):
                            stream_type=StreamType().pulse_stream,
                         )
                         add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
-                        await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}]({url})({link}) \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
+                        await huehue.edit(f"🎶 **sᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴀᴜᴅɪᴏ ▶** \n**🎧 sᴏɴɢ** : [{songname[:15]}] \n**💬 ᴄʜᴀᴛ** : `{chat_id}`")
                      except Exception as ep:
                         await huehue.edit(f"`{ep}`")
 
